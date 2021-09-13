@@ -14,24 +14,28 @@ ul.bots > li{
 }
 
 div.console_container{
-  background: pink;
+  background: #39395a;
   height: 20rem;
   max-height: 20rem;
-  width: 70rem;
   white-space: pre-line;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 p.console_text{
-  width: 80%;
-  height: 80%;
+  padding:0;
+  margin:0;
+  height: 95%;
   overflow-y: auto;
   padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
-  box-sizing: content-box; /* So the width will be 100% + 17px */
-  background: white;
+  box-sizing: content-box;
+  background: #c2c2c2;
 }
 
 input#console_input{
-  background: red;
+  margin-top: 0.5rem;
+  width: 100%;
+  background: #c2c2c2;
 }
 
 ul.bots{
@@ -51,3 +55,21 @@ div.bot_container{
   margin: 1vw;
 }
 
+ul.buttons_list > li{
+  /* make list elements fall inline as block elements */
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+ul.buttons_list{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+button.quick_button{
+  width: 10rem;
+  height: 4rem;
+  margin: 1rem;
+}
