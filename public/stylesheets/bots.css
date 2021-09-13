@@ -1,0 +1,53 @@
+body {
+  padding: 20px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #2e2e53;
+}
+
+ul.bots > li{
+  vertical-align: top;
+  /* make list elements fall inline as block elements */
+  position: relative;
+  display: inline-block;
+  /* next two lines only for display purposes */
+  text-align: center;
+}
+
+div.console_container{
+  background: pink;
+  height: 20rem;
+  max-height: 20rem;
+  width: 70rem;
+  white-space: pre-line;
+}
+
+p.console_text{
+  width: 80%;
+  height: 80%;
+  overflow-y: auto;
+  padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+  box-sizing: content-box; /* So the width will be 100% + 17px */
+  background: white;
+}
+
+input#console_input{
+  background: red;
+}
+
+ul.bots{
+  text-align:center;
+}
+
+
+div.bots_containers{
+  background: #2e2e53;
+}
+
+div.bot_container{
+  background: #39395a;
+  width: 20rem;
+  height: 35rem;
+  text-align: center;
+  margin: 1vw;
+}
+

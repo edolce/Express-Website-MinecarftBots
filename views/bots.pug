@@ -1,0 +1,31 @@
+html
+    head
+        title Bots Management
+        link(rel='stylesheet', href='/stylesheets/bots.css')
+    body
+        block content
+block content
+    div.bots_container
+        h1 Bots
+        ul.bots
+            li
+                div.bot_container
+                    div.bot_image
+                        img(src='/images/bot_image.png' alt='bot_image' style='width:300px; height:400px;')
+                    div.bot_info
+                        h3.bot_name Bot Name
+                        p.bot_desc This is a bot
+            li
+                div.bot_container
+                    div.add_image
+                        img(src='/images/add.png' alt='add' style='width:300px; height:400px;')
+                    div.add_info
+                        h3.bot_name Add A Bott
+                        p.add_text Press this button to add a new bot
+    div.dashboard_container
+        h1 Console
+        div.console_container
+            p.console_text#console Console...
+            input#console_input
+
+    script(src='/javascripts/bots.js')
